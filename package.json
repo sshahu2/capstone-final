@@ -1,0 +1,31 @@
+{
+  "name": "capstone-main",
+  "version": "1.0.0",
+  "description": "capstone-main",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "code_ninjas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "*",
+    "mongoose": "^4.7.5",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-jwt": "*",
+    "passport-linkedin": "^1.0.0",
+    "passport-linkedin-oauth2": "^1.5.0",
+    "passport-twitter": "^1.0.4",
+    "request": "^2.83.0"
+  }
+}
